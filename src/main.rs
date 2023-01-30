@@ -13,13 +13,13 @@ fn main() {
         Err(_) => 0,
     };
 
-    println!("1");
+    println!("\n1");
     fibonacci(n, &mut biggest);
 
 }
 
 fn fibonacci(n: u64, biggest: &mut u64) -> u64 {
-    let mut y: u64;
+    let y: u64;
     
     if n <= 0 {
         0
@@ -29,7 +29,7 @@ fn fibonacci(n: u64, biggest: &mut u64) -> u64 {
     }
     else {
         y = fibonacci(n - 1, biggest) + fibonacci(n - 2, biggest);
-        if biggest < &mut y || biggest == &mut 1 && n == 2 {
+        if *biggest < y || *biggest == 1 && n == 2 {
             *biggest = y;
             println!("{y}");   
         }
