@@ -1,2 +1,1 @@
-[![security status](https://meterian.io/badge/pb/da6daa70-67e5-4dc3-97a9-4d7ebc108487/security)](https://meterian.io/projects/?pid=da6daa70-67e5-4dc3-97a9-4d7ebc108487)[![stability status](https://meterian.io/badge/pb/da6daa70-67e5-4dc3-97a9-4d7ebc108487/stability)](https://meterian.io/projects/?pid=da6daa70-67e5-4dc3-97a9-4d7ebc108487)[![licensing status](https://meterian.io/badge/pb/da6daa70-67e5-4dc3-97a9-4d7ebc108487/licensing)](https://meterian.io/projects/?pid=da6daa70-67e5-4dc3-97a9-4d7ebc108487)
 # fibonacci
